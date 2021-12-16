@@ -12,8 +12,8 @@ for (let i = 0; i < nNumeri; i++) {
     numeri.push(newNumber);
 }
 
-// Rosso = numeri pari
-// Verde = numeri dispari
+// Rosso = numeri dispari
+// Verde = numeri spari
 const rosso = document.getElementById("rosso");
 const verde = document.getElementById("verde");
 
@@ -22,8 +22,8 @@ document.getElementById("info").innerHTML = "Sono stati generati " + nNumeri + "
 for (let i = 0; i < numeri.length; i++) {
     let valore = numeri[i];
     if (valore % 2 == 0) {
-        rosso.innerHTML += valore + " ";
-    } else {
         verde.innerHTML += valore + " ";
+    } else {
+        rosso.innerHTML += valore + " ";
     }
 }
