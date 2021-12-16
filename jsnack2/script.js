@@ -10,7 +10,7 @@ for (let i = 0; i < nArray; i++) {
     const newArray = [];
 
     for (let p = 0; p < 10; p++) {
-        const newValue = Math.floor(Math.random() * 100 + 1)
+        const newValue = Math.floor(Math.random() * 100 + 1);
         newArray.push(newValue);
     }
 
